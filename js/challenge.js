@@ -31,7 +31,7 @@ let clear;
 
 /// Like
   heart.addEventListener('click', function() {
-    ul.insertAdjacentHTML('beforeend', `<li>${this.setTime}</li>` )
+    ul.insertAdjacentHTML('beforeend', `<li>${setTime}</li>` )
   })
 
   pause.addEventListener('click' , function() {
