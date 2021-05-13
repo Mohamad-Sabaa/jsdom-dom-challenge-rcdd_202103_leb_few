@@ -13,7 +13,7 @@ let clear;
      counter.innerHTML = setTime;
    }
 
-  setInterval(countTime, 1000);
+  clear = setInterval(countTime, 1000);
 
 
 // INCREASE and Decrease THE COUNTER WHEN PREES ON PLUS BUTTON
