@@ -33,3 +33,7 @@ let setTime = 0;
   likes.addEventListener('click', function() {
     ul.insertAdjacentHTML('beforeend', `<li >❤️</li>` )
   })
+
+  pause.addEventListener('click' , function() {
+    return countTime.clearInterval();
+  })
