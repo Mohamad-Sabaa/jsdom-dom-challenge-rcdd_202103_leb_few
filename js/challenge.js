@@ -1,5 +1,5 @@
 let counter = document.getElementById("counter");
-let likes = document.getElementById("heart");
+let heart = document.getElementById("heart");
 let increase = document.getElementById("plus");
 let decrease = document.getElementById("minus");
 let pause = document.getElementById("pause");
@@ -30,7 +30,7 @@ let clear;
 
 
 /// Like
-  likes.addEventListener('click', function() {
+  heart.addEventListener('click', function() {
     ul.insertAdjacentHTML('beforeend', `<li >❤️</li>` )
   })
 
