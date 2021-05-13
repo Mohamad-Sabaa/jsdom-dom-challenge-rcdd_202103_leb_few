@@ -7,7 +7,7 @@ let ul = document.getElementsByClassName("likes");
 
 // UPDATE THE COUNTER
 let setTime = 0;
-
+let clear;
    function countTime () {
      setTime ++;
      counter.innerHTML = setTime;
