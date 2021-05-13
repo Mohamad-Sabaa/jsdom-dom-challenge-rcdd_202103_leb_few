@@ -35,5 +35,5 @@ let setTime = 0;
   })
 
   pause.addEventListener('click' , function() {
-    return countTime.clearInterval();
+    return countTime.clearInterval(setTime);
   })
